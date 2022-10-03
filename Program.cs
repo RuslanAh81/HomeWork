@@ -29,7 +29,8 @@ if (b>max) max = b;
 if (c>max) max = c;
  Console.WriteLine(max);
 
-*/
+
+/*
 // Задача 3. Напишите программу, которая на вход принимает число и выдает, является ли число четным.
 
 Console.Write("Введите число :");
@@ -42,3 +43,19 @@ if (a % 2 == 0)
 else 
 {   Console.WriteLine("Число нечетное");
 }
+
+
+*/
+// Задача 4. Напишите программу, которая на вход принимает число (N), а на выходе показывает все четные числа от 1 до N.
+
+Console.WriteLine("Введите число :");
+int n = Convert.ToInt32(Console.ReadLine());
+int cur = 2;
+while(cur <= n)
+
+{
+    Console.Write(cur + " ");
+    cur = cur + 2 ;
+}
+
+
