@@ -32,4 +32,13 @@ if (c>max) max = c;
 */
 // Задача 3. Напишите программу, которая на вход принимает число и выдает, является ли число четным.
 
-console.Write("Введите число")
+Console.Write("Введите число :");
+int a = Convert.ToInt32(Console.ReadLine());
+if (a % 2 == 0)
+
+{
+    Console.WriteLine("Число четное");
+}
+else 
+{   Console.WriteLine("Число нечетное");
+}
