@@ -1,4 +1,6 @@
-﻿/*
+﻿using System;
+
+/*
 //  Задача номер 1. Напишите программу, которая на вход принимает 2 числа и выдает,какое число больше.
 Console.WriteLine("Введите число a:");
 int a = Convert.ToInt32(Console.ReadLine());
@@ -48,7 +50,7 @@ else
 */
 // Задача 4. Напишите программу, которая на вход принимает число (N), а на выходе показывает все четные числа от 1 до N.
 
-Console.WriteLine("Введите число :");
+  Console.WriteLine("Введите число :");
 int n = Convert.ToInt32(Console.ReadLine());
 int cur = 2;
 while(cur <= n)
